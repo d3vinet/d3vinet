@@ -63,7 +63,7 @@ if (!('scrollBehavior' in document.documentElement.style)) {
 // toast
 document.getElementById("copyBtn").addEventListener("click", function() {
   // Copy Bitcoin address to clipboard
-  const bitcoinAddress = "It works"; // Replace this with your actual Bitcoin address
+  const bitcoinAddress = "bc1q2f3a6tyruuswk3ed0758m97fl80meepqz3j73l"; // Replace this with your actual Bitcoin address
   navigator.clipboard.writeText(bitcoinAddress).then(function() {
       // Show toast message
       var toast = document.getElementById("toast");
