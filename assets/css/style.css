@@ -155,6 +155,8 @@ body {
       display: block;
     }
 }
+
+.main .content {width: 250px;}
   
 @media screen and (max-width: 600px) {
     .nav img {
