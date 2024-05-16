@@ -271,3 +271,5 @@ body {
     z-index: 999;
     display: none;
 }
+
+.activepage {background-color: #ddd;}
